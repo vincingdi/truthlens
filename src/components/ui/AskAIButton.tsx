@@ -13,8 +13,6 @@ import {
 import { Fragment, useRef, useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { Textarea } from "./textarea";
-import { start } from "repl";
-import { text } from "stream/consumers";
 import { askAIAboutNotesAction } from "@/actions/notes";
 import "@/app/styles/ai-response.css";
 import { ArrowUpIcon } from "lucide-react";

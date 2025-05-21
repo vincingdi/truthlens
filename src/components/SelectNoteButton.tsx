@@ -3,7 +3,7 @@
 import useNote from "@/hooks/useNote";
 import { Note } from "@prisma/client";
 import { useSearchParams } from "next/navigation";
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { SidebarMenuButton } from "./ui/sidebar";
 import Link from "next/link";
 
